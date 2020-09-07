@@ -83,24 +83,26 @@
 }
 
 .message {
-  padding: 10px 0;
-  margin-bottom: 40px;
+  margin: 10px 0;
 }
 
-.name-time {
+.upper-message{
   display: flex;
 }
 
-.nickname {
-  font-size: 16px;
+.message-user{
   color: #434a54;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.time {
+.message-date {
   font-size: 12px;
   color: #999;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
 }
 
 .message-content {
